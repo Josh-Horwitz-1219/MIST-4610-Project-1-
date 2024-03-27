@@ -73,7 +73,12 @@ This query lists names of players names, and the names of the coaches, for those
 Identifying players who are 16 years of age and older is essential for player development and management. At this age, players may be eligible for more advanced training programs, competitive leagues, or specialized coaching sessions tailored to their skill level and potential. By listing the names of these players alongside their coaches, team management can ensure that appropriate support and guidance are provided to help players reach their full potential. 
 
 ### Query 7
+This query lists the players' name and their coaches and the amount of games they’ve played overall. 
 
+<img width="769" alt="Screenshot 2024-03-27 at 5 21 13 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/409b54c4-c636-470a-a283-5abf82e7e1b4">
+<img width="625" alt="Screenshot 2024-03-27 at 5 21 27 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/9515a32b-e115-4c62-a916-65d3f8c22d78">
+
+Tracking the total number of games played by each player provides valuable insights into their level of experience, participation, and contribution to the team. This data allows coaches and team managers to assess player performance, consistency, and reliability over time. By listing players' names alongside their coaches and the total number of games played, team management gains a comprehensive understanding of player engagement and involvement in team activities.
 
 ### Query 8
 
