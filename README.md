@@ -96,6 +96,11 @@ This query lists the sponsor name and sponsor representative for the tournaments
 Associating sponsors with tournaments held at Eagle Crest Arena and Liberty Fields Arena facilitates relationship strengthening and engagement efforts. By identifying sponsors and their representatives in relation to these venues, tournament organizers can initiate and maintain communication channels more effectively. This allows for ongoing collaboration, feedback exchange, and partnership development, fostering long-term relationships that benefit both parties.
 
 ### Query 10
+This query lists the age range, club name, team name, and number of players on each team. Order this by the teams having the most to least players. 
+
+<img width="407" alt="Screenshot 2024-03-27 at 5 25 26 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/18e69ac0-18db-482a-809b-29fcf018ce3a">
+
+Clubs need to allocate resources such as coaches, facilities, and equipment based on the size and composition of each team. Understanding the number of players in each team helps clubs make informed decisions on how to allocate to support their players’ development.
 
 ## Database information:
 
