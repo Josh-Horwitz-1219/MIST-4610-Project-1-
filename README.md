@@ -81,6 +81,11 @@ This query lists the players' name and their coaches and the amount of games the
 Tracking the total number of games played by each player provides valuable insights into their level of experience, participation, and contribution to the team. This data allows coaches and team managers to assess player performance, consistency, and reliability over time. By listing players' names alongside their coaches and the total number of games played, team management gains a comprehensive understanding of player engagement and involvement in team activities.
 
 ### Query 8
+This query lists the session ID, facility ID, facility name, and player name(players that are 16 and older) for all the trainings sessions that took place in January and February, where's players age is greater than the average age of players 
+
+<img width="581" alt="Screenshot 2024-03-27 at 5 22 31 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/4700e289-c245-448a-b39e-aed30a00cf43">
+
+This query aims to retrieve specific information from a database regarding training sessions that occurred in January and February. This data helps managers identify how many training sessions occurred in those two months. This lets managers know if there's a need for more training facilities or which training facilities are used more. Additionally knowing which players are older than the average age we can determine who does and doesn't rely on others to practice. 
 
 ### Query 9
 
