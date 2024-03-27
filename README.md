@@ -122,6 +122,8 @@ Name of the database: ns_Sp24_21484_Group5
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q#();
 
+## Data Dictionary:
+
 Clubs					
 Column Name	Description	Data Type	Size	Format	Key?
 clubID	The unique identifier for each club	INT			PK
