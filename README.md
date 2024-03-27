@@ -66,8 +66,14 @@ This query lists the staff name and team name they work with for teams that have
 By identifying teams with less than the average number of players and staff with bachelor's degrees, the query assists in optimizing resource allocation within the sports organization. Teams with smaller player and staff rosters may require different levels of support and attention compared to larger teams. Identifying these teams allows managers to allocate resources, such as coaching staff or administrative support, more effectively to meet the specific needs of each team.
 
 ### Query 6
+This query lists names of players names, and the names of the coaches, for those players that are older than the average age. 
+
+<img width="583" alt="Screenshot 2024-03-27 at 5 19 46 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/6dff4d4e-51e7-49bb-ab0a-893c274e18f0">
+
+Identifying players who are 16 years of age and older is essential for player development and management. At this age, players may be eligible for more advanced training programs, competitive leagues, or specialized coaching sessions tailored to their skill level and potential. By listing the names of these players alongside their coaches, team management can ensure that appropriate support and guidance are provided to help players reach their full potential. 
 
 ### Query 7
+
 
 ### Query 8
 
