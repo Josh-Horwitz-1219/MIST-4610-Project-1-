@@ -124,4 +124,5 @@ Additional information: Each query listed above is marked in the database using 
 
 ## Data Dictionary:
 
-[image](https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/150073096/bb098aa0-38a6-4cdc-bda2-64d9c3f0090d)
+![image](https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/150073096/350bc1d1-b5a6-4e36-9e46-4263790edc89)
+
