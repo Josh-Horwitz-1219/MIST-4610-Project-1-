@@ -52,13 +52,18 @@ This query lists the match location if the number of wins is greater than or equ
 By listing the number of wins for each match location, teams and coaches can assess their performance in different environments. Understanding win records at specific locations helps identify strengths and weaknesses, enabling teams to adjust strategies, training regimens, or player selections accordingly.
 
 ### Query 4
-List the names of the players' names, phone numbers, and team names for those who went to either the Keebler or Hudson facility and also won a match in Athens, Georgia.
+This query lists the names of the players' names, phone numbers, and team names for those who went to either the Keebler or Hudson facility and also won a match in Athens, Georgia.
 
 <img width="621" alt="Screenshot 2024-03-27 at 5 14 18 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/44fc0779-af32-456e-86da-4c7e170eb376">
 
 Connecting players who have won matches at specific locations fosters community building and networking opportunities within the sports organization. By facilitating interactions between successful players, organizers can encourage knowledge sharing, skill development, and camaraderie among participants. This networking aspect enhances the overall sense of belonging and engagement within the sports community, strengthening bonds between players, coaches, and organizers.
 
 ### Query 5
+This query lists the staff name and team name they work with for teams that have less than the average amount of players and staff that have a bachelor's degree. 
+
+<img width="625" alt="Screenshot 2024-03-27 at 5 17 01 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/fc7ca595-5ad9-4167-96ff-263e4f9fde29">
+
+By identifying teams with less than the average number of players and staff with bachelor's degrees, the query assists in optimizing resource allocation within the sports organization. Teams with smaller player and staff rosters may require different levels of support and attention compared to larger teams. Identifying these teams allows managers to allocate resources, such as coaching staff or administrative support, more effectively to meet the specific needs of each team.
 
 ### Query 6
 
