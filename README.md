@@ -121,3 +121,89 @@ Clubs need to allocate resources such as coaches, facilities, and equipment base
 Name of the database: ns_Sp24_21484_Group5
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q#();
+
+Clubs					
+Column Name	Description	Data Type	Size	Format	Key?
+clubID	The unique identifier for each club	INT			PK
+clubName	The name of the club	VARCHAR	45		
+clubCity	The city where the club is located	VARCHAR	45		
+clubCountry	The country where the club is located	VARCHAR	45		
+					
+Players					
+Column Name	Description	Data Type	Size	Format	Key?
+playerID	The unique identifier for each player	INT			PK
+playerName	The full name of the player	VARCHAR	45		
+playerAge	The player's age	VARCHAR	45		
+playerPhone	The player's phone number	VARCHAR	45	(999) 9999999	
+playerEmail	The player's email	VARCHAR	45		
+Teams_teamID	The team identifier associated with the player	INT			FK (Teams)
+					
+Staff					
+Column Name	Description	Data Type	Size	Format	Key?
+staffID	The unique identifier for each staff member	INT			PK
+staffName	The full name of the staff member	VARCHAR	45		
+jobTitle	The staff member's job title	VARCHAR	45		
+jobDescrip	What the staff member does on the job	VARCHAR	45		
+qualifications	Qualifications of the staff member	VARCHAR	45		
+Teams_teamID	The team identifier associated with the staff	INT			FK (Teams)
+					
+Coaches					
+Column Name	Description	Data Type	Size	Format	Key?
+coachID	The unique identifier for each coach	INT			PK
+coachName	The full name of the caoch	VARCHAR	45		
+coachDescript	Description of the coaching role	VARCHAR	45		
+Teams_teamID	The team identifier associated with the coach	INT			FK (Teams)
+					
+Teams					
+Column Name	Description	Data Type	Size	Format	Key?
+teamID	The unique identifier for each staff	INT			PK
+teamName	The team's name	VARCHAR	45		
+ageRange	The age range of the team members	VARCHAR	45	99-99	
+numOfPlayers	The amount of players on each team	VARCHAR	45		
+Clubs_clubID	The club identifier associated with the team	INT			FK (Clubs)
+					
+Matches					
+Column Name	Description	Data Type	Size	Format	Key?
+matchID	The unique identifier for each match	INT			PK
+matchDate	The date a match is played	DATE		YYYY-MM-DD	
+matchLocation	The place where the match is held	VARCHAR	45		
+matchResult	The amount of players on each team	VARCHAR	45		
+Teams_teamID	The team identifier associated with the match	INT			FK (Teams)
+Tournaments_tournamentID	The tournament identifier associated with the match	INT			FK (Tournaments)
+					
+Tournament Sponsors					
+Column Name	Description	Data Type	Size	Format	Key?
+Tournaments_tounramentID	The tournament being sponsored (references the Tournaments table)	Numeric			FK
+Sponsors_sponsorID	The sponsor of the tournament (references the Sponsors table)	Numeric			FK
+					
+Sponsors					
+Column Name	Description	Data Type	Size	Format	Key?
+sponsorID	The sponsor of the tournament	Numeric			PK
+sponsorName	Name of the sponsor	Text	45		
+sponsorRepresentative	Name of the sponsor representative	Text	45		
+					
+Training Facilities					
+Column Name	Description	Data Type	Size	Format	Key?
+facilityID	Unique identifier for each training facility	Numeric			PK
+facilityName	Name of the training facility	Text	45		
+facilityLocation	Location of the facility	Text	45		
+					
+Training Session Attendance					
+Column Name	Description	Data Type	Size	Format	Key?
+Players_playerID	The player attending the training session (references the Players table)	Numeric			FK
+Training Sessions_sessionID	The training session being attended (references the Training Sessions table)	Numeric			FK
+					
+Tournaments					
+Column Name	Description	Data Type	Size	Format	Key?
+tournamentID	Unique identifier for each tournament	Numeric			PK
+tournamentDate	Date when the tournament begins	DATETIME		YYYY-MM-DD	
+tournamentLocation	Location where the tournament is held	Text	45		
+					
+Training Sessions					
+Column Name	Description	Data Type	Size	Format	Key?
+sessionID	Unique identifier for each training session	Numeric			PK
+sessionDate	Date when the session was held	DATETIME		YYYY-MM-DD 00:00:00	
+sessionStartTime	The time a session started	TIME		0:00:00	
+sessionEndTime	The time a session ended	TIME		0:00:00	
+Teams_teamID	Description of the training session (references the Teams table)	Numeric			FK
+Training Facilities_facilityID	The facility where the session is held (references the Training Facilities table)	Numeric			FK![image](https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/150073096/bb098aa0-38a6-4cdc-bda2-64d9c3f0090d)
