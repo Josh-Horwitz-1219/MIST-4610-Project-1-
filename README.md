@@ -34,10 +34,9 @@ Explanation of data model:
 
 <img width="618" alt="Screenshot 2024-03-27 at 5 02 42 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/6281cb5c-8e6e-4c9d-96a7-bd8803d4ee68">
 
-
 ## Data Dictionary:
 
-TBD
+![image](https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/150073096/350bc1d1-b5a6-4e36-9e46-4263790edc89)
 
 ## Queries:
 
@@ -121,8 +120,4 @@ Clubs need to allocate resources such as coaches, facilities, and equipment base
 Name of the database: ns_Sp24_21484_Group5
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q#();
-
-## Data Dictionary:
-
-![image](https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/150073096/350bc1d1-b5a6-4e36-9e46-4263790edc89)
 
