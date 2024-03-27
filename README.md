@@ -29,6 +29,8 @@ TBD
 
 ## Queries:
 
+<img width="817" alt="Screenshot 2024-03-27 at 5 33 42 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/0f537459-1632-4694-9aa9-869c35de7fc6">
+
 ### Query 1  
 This query lists the player's full name, name of the team they are on, and their team’s number of players for teams that have 5 or more wins.
 
