@@ -19,7 +19,7 @@ Our data model mirrors that of a high school soccer club. The central entity of 
 
 Explanation of data model: 
 
-  Our database is that of a hypothetical high school soccer club located in Athens, Georgia. The clubs entity is representative of the club to which the rest of the entities operate on behalf of. The club is called Velocity Vortex Athletics. 
+  	Our database is that of a hypothetical high school soccer club located in Athens, Georgia. The clubs entity is representative of the club to which the rest of the entities operate on behalf of. The club is called Velocity Vortex Athletics. 
 
 	The staff entity is representative of the various staff members employed by the individual teams associated with Velocity Vortex Athletics. While the teams do operate under the Velocity Vortex Athletic Club umbrella, staff members are assigned to specific teams within the club. Accordingly, there is a one to many relationship between staff and teams, as one team can have many staff members assigned to it, while an employee can only work on behalf of one team within the club. 
 
