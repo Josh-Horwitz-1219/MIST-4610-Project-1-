@@ -18,7 +18,19 @@ Our data model mirrors that of a high school soccer club. The central entity of 
 ## Data Model
 
 Explanation of data model: 
-TBD
+
+  Our database is that of a hypothetical high school soccer club located in Athens, Georgia. The clubs entity is representative of the club to which the rest of the entities operate on behalf of. The club is called Velocity Vortex Athletics. 
+
+	The staff entity is representative of the various staff members employed by the individual teams associated with Velocity Vortex Athletics. While the teams do operate under the Velocity Vortex Athletic Club umbrella, staff members are assigned to specific teams within the club. Accordingly, there is a one to many relationship between staff and teams, as one team can have many staff members assigned to it, while an employee can only work on behalf of one team within the club. 
+
+	Next, we have the coaches table. This table keeps track of the various coaches associated with Velocity Vortex Athletics. Similar to the staff table, while the coaches do coach under the Velocity Vortex Athletics, they coach for particular teams within the club. Consequently, there is a one to many relationship between teams and coaches, as all teams have multiple coaches while coaches can only coach for one team.
+
+	The central entity of our data model is the teams entity. Velocity Vortex Athletics has 15 teams that play on its behalf. For this reason, there is a one to many relationship between the teams and clubs table, as a club (Velocity Vortex Athletics in this case) can have many teams that play on its behalf while a team can play under the umbrella of only one club. 
+
+	Teams are made up of players, which leads us to our next entity: the Players table. Since each team has many players and a player can only play for one team, there is a one to many relationship between players and teams. 
+
+	Also important to keep track of are the various training sessions conducted by the various teams. Accordingly, we have a Training Session table, which keeps track of the start and end times, along with the date and location of various training sessions. Since one team can conduct many training sessions, while a particular training session can only be conducted by one team, there is a one to many relationship between training sessions and teams. Also important to keep track of with training sessions are the players who attend them. Since a training session can be attended by many players and one player can attend many training sessions, there is a many to many relationship between players and training sessions. It is for this reason that we added an associative entity between players and training sessions, which keeps track of the individual players that attend certain training sessions. In other words, if a player’s PlayerId is in the TrainingSessionsAttendance entity, they have attended at least one training session. Also attached to the TrainingSessions table is the TrainingFacilities table. Since one training facility can host many different training sessions, there is a one to many relationship between training facilities and training sessions. 
+
 
 <img width="618" alt="Screenshot 2024-03-27 at 5 02 42 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/6281cb5c-8e6e-4c9d-96a7-bd8803d4ee68">
 
