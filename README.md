@@ -88,6 +88,12 @@ This query lists the session ID, facility ID, facility name, and player name(pla
 This query aims to retrieve specific information from a database regarding training sessions that occurred in January and February. This data helps managers identify how many training sessions occurred in those two months. This lets managers know if there's a need for more training facilities or which training facilities are used more. Additionally knowing which players are older than the average age we can determine who does and doesn't rely on others to practice. 
 
 ### Query 9
+This query lists the sponsor name and sponsor representative for the tournaments that took place at Eagle Crest Arena and Liberty Fields Arena.
+
+<img width="622" alt="Screenshot 2024-03-27 at 5 23 49 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/d74bdd44-42cf-47bd-baf4-0dbf21a95a83">
+<img width="623" alt="Screenshot 2024-03-27 at 5 24 01 PM" src="https://github.com/Josh-Horwitz-1219/MIST-4610-Project-1-/assets/163042495/c29fc353-74f1-46ae-a82f-69b0e6553ac6">
+
+Associating sponsors with tournaments held at Eagle Crest Arena and Liberty Fields Arena facilitates relationship strengthening and engagement efforts. By identifying sponsors and their representatives in relation to these venues, tournament organizers can initiate and maintain communication channels more effectively. This allows for ongoing collaboration, feedback exchange, and partnership development, fostering long-term relationships that benefit both parties.
 
 ### Query 10
 
